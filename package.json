@@ -1,0 +1,31 @@
+{
+  "name": "ultima",
+  "version": "0.0.1",
+  "description": "ULTIMA service bindings for JavaScript (Node.js)",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "eLIPSE",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/axios": "0.14.0",
+    "typescript": "2.5.3"
+  },
+  "dependencies": {
+    "axios": "0.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UQ-eLIPSE/ultimalib-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UQ-eLIPSE/ultimalib-js/issues"
+  },
+  "homepage": "https://github.com/UQ-eLIPSE/ultimalib-js#readme"
+}
